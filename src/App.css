@@ -4,8 +4,7 @@
   flex-direction: column;
   gap: 6rem;
   overflow: hidden;
-  
-  
+  width: max-content;
 }
 ::-webkit-scrollbar{
   display: none;

@@ -1,7 +1,8 @@
 .hero {
   display: flex;
   justify-content: space-between;
-  background-color: white;
+  width: max-content;
+  height: max-content;
 }
 .left-h {
   padding: 2rem;
@@ -69,7 +70,7 @@ p {
 .right-h {
     display: flex;
     position: relative;
-    background-color: white;
+    
 }
 .bottomPurple {
   margin-top: 0;
@@ -153,45 +154,27 @@ p {
 }
 .right-h > .btn1 {
   position: absolute;
-  right: 10rem;
+  right: 13rem;
   top: 1rem;
-  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+  border: none;
+  background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+border-radius: 10px;
   border-radius: 10px;
-
+  align-items: center;
   border-radius: 8px;
-  border: rgb(94, 86, 86);
   color: white;
-  width: 10%;
+  width: 60%;
   height: 44px;
-
+  
   cursor: pointer;
 }
 .imagesDiv{
-    position: absolute;
-    top: 10rem;
-    right: 3rem;
-    color: #434343;
+    position: relative;
+    top: 20rem;
+    right: 10rem;
     
 }
-.wrapper1{
+.img-div{
+    display: flex;
     
-    margin-left: -40px;
-    margin-top: 230px;
-    width: fit-content;
-}
-.wrapper2{
- margin-left: 80px;
-  margin-top: -10px;
-  width: fit-content;
-  background-color: red;
-}
-.wrapper3{
-    width: fit-content;
-    margin-left:-190px ;
-    margin-top: -160px;
-}
-.wrapper4{
-    margin-top: -120px;
-    margin-left: 60px;
-    width: fit-content;
 }

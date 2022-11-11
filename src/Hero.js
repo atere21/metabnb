@@ -58,11 +58,14 @@ function Hero() {
       <div className="right-h">
         <button className="btn1">Connect Wallet</button>
         <div className="imagesDiv">
+            <div className="img-div">
              <img src={cartoon1} alt="" id="" className="cartoon1" />
              <img src={cartoon3} alt="" id="" className="cartoon3" />
+             </div>
+             <div>
               <img src={cartoon2} alt="" id="" className="cartoon2" />
                  <img src={cartoon4} alt="" id="" className="" />
-                 
+                 </div>
         </div>
       </div>
     </div>
