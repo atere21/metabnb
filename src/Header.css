@@ -1,0 +1,33 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+   width: 98px; 
+   height: 19px;
+    
+}
+#logo1{
+    width: 24px;
+    height: 19px;
+}
+.header-menu{
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    color: #434343;
+    margin-top: -2px;
+    margin-left: 10em;
+}
+.header-menu >li{
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 25px;
+    color: #434343;
+}
+.header-menu >li:hover{
+    color: plum;
+    cursor: pointer;
+}
