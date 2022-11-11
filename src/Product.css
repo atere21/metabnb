@@ -1,0 +1,28 @@
+.product{
+    margin-left: 100px;
+    margin-top: 240px;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 100px;
+    max-height: 400px;
+    min-width: 100px;
+    background-color: white;
+    z-index: 1;
+
+}
+.product__info{
+    
+    
+}
+.product__info >img{
+    max-height: 190px;
+    width: 220px;
+    object-fit: contain;
+    margin-bottom: 35px;
+    margin-left: -20px;
+    background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+
+
+border: 1px solid #D7D7D7;
+border-radius: 15px;
+}
