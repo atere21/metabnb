@@ -1,0 +1,16 @@
+.hero-text2{
+    position: absolute;
+width: 817px;
+height: 60px;
+left: 413px;
+top: 800px;
+
+font-family: 'Red Rose';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 60px
+}
+.home__row{
+    display: flex;
+}

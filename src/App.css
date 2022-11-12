@@ -5,6 +5,10 @@
   gap: 6rem;
   overflow: hidden;
   width: max-content;
+  margin-left: auto;
+  max-width: 1500px;
+  margin-right: auto;
+  justify-content: center;
 }
 ::-webkit-scrollbar{
   display: none;

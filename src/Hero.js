@@ -9,6 +9,7 @@ import cartoon2 from "../src/img/cartoon2.png";
 import cartoon3 from "../src/img/cartoon3.png";
 import cartoon4 from "../src/img/cartoon5.png";
 
+
 function Hero() {
   return (
     <div className="hero">
