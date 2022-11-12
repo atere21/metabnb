@@ -1,16 +1,25 @@
-.hero-text2{
-    position: absolute;
-width: 817px;
-height: 60px;
-left: 413px;
-top: 800px;
-
-font-family: 'Red Rose';
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 60px
+.hero-text2 {
+  position: absolute;
+  width: 817px;
+  height: 60px;
+  left: 413px;
+  top: 820px;
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 60px;
 }
-.home__row{
-    display: flex;
+.home__row {
+  display: flex;
+  flex-direction: row;
+}
+.home__row2{
+display: flex;
+  flex-direction: row;
+  margin-top: -160px;
+}
+.heroTwo {
+  display: grid;
+  
 }

@@ -1,28 +1,93 @@
-.product{
-    margin-left: 100px;
-    margin-top: 240px;
+.product {
+  margin-left: 40px;
+  margin-top: 240px;
+  flex-direction: column;
+  max-width: 50vw;
+  max-height: 100vh;
+  background-color: white;
+  z-index: 1;
+  border: 1px solid #d7d7d7;
+  border-radius: 15px;
+  padding-left: 90px;
+  margin-left: 30px;
+  
+}
+.product__info {
+    width: min-content;
+    
+}
+.product__info > img {
+  max-height: 190px;
+  width: 210px;
+  margin-bottom: 59px;
+  
+  margin-left: -70px;
+  padding: 25px;
+  padding-bottom: 10px;
+  background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
+}
+
+.product__div {
+  display: flex;
+  gap: 3rem;
+  margin-top: -2rem;
+  margin-left: -90px;
+  max-width: fit-content;
+  
+}
+.col1 {
+  display: flex;
+  flex-direction: column;
+  width: 80px;
+}
+.col2 {
+    
+    display: flex;
     flex-direction: column;
-    justify-content: center;
-    min-width: 100px;
-    max-height: 400px;
-    min-width: 100px;
-    background-color: white;
-    z-index: 1;
-
+    width: max-content;
+    gap: 0.8em;
+  }
+#span__one {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 33px;
+  color: #434343;
+  margin-top: -6px;
+  
 }
-.product__info{
+#span__two{
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 17px;
+  width: max-content;
+  line-height: 13px;
+  color:black;
+  margin-top: 12px;
+  
+}
+.span__three{
+    color: black;
+    width: max-content;
+    font-weight: 600;
     
-    
-}
-.product__info >img{
-    max-height: 190px;
-    width: 220px;
-    object-fit: contain;
-    margin-bottom: 35px;
-    margin-left: -20px;
-    background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+  }
+  .span__four{
+    color: #434343;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .product__rating{
+    display: flex;
+    margin-left: -69px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  #star{
+    padding-left: -30px;
+    margin-left: -4px;
 
 
-border: 1px solid #D7D7D7;
-border-radius: 15px;
-}
+  }

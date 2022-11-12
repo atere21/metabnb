@@ -1,7 +1,6 @@
 import './App.css';
 import Hero from './Hero';
 import HeroTwo from './HeroTwo';
-import Product from './Product';
 
 function App() {
   return (
