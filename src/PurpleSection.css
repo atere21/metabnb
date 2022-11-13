@@ -2,7 +2,7 @@
   mix-blend-mode: overlay;
   display: flex;
   width: 410vw;
-  height: 80vh;
+  height: 90vh;
   margin-top: 20px;
   flex-direction: column;
   overflow: hidden;
@@ -84,7 +84,7 @@ a >#btn4:hover{
   margin-top: 100px;
 }
 .img9{
-  margin-top: -230px;
+  margin-top: -210px;
   z-index: -1;
   position: relative;
   margin-left:130px ;

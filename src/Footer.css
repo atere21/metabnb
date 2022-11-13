@@ -82,8 +82,9 @@
  .middle3{
     display: flex;
     margin-top: -109px;
-    margin-left: 990px;
+    margin-left: 980px;
     color: white;
+    width: fit-content;
  }
  .middle3 >.third-group >a{
     text-decoration: none;

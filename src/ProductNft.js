@@ -7,7 +7,7 @@ function ProductNft({NFT1, NFT2, NFT3, NFT4, image, rating}) {
     <div className='productNft'>
          <div className='Product-Nft1'>
          <img src={image} alt="" id="" className="" />
-        <div className="product__div">
+        <div className="product__div2">
           <div className="col__nft">
             <span id="span__one__nft">{NFT1}</span>
             <span id="span__two__nft">{NFT2}</span>

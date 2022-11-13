@@ -4,9 +4,10 @@ import logo1 from "../src/img/logo1.png";
 import logo2 from "../src/img/logo2.png";
 import location from "../src/img/location.png"
 import ProductNft from "./ProductNft";
-import NFT1 from "../src/img/frame6.png"
-import NFT2 from "../src/img/frame7.png"
-
+import NFT1 from "../src/img/frame5.png"
+import NFT2 from "../src/img/frame1.png"
+import NFT3 from "../src/img/nft4-img.png"
+import NFT4 from "../src/img/nft5-img.png"
 
 function NFTs() {
   return (
@@ -48,21 +49,35 @@ function NFTs() {
       <button id="location">Location</button>
       <img src={location} alt='' id="location-png"/>
       </div>
-        <div>
+        <div className="row1">
             <ProductNft NFT1="Desert King"
             NFT2='2345km away' NFT3='1MBT per night'
             NFT4='available for 2 weeks stay' image={NFT1}
             />
-            {/* <ProductNft />
-            <ProductNft />
-            <ProductNft /> */}
-        </div>
-        {/* <div>
-            <ProductNft />
-            <ProductNft />
-            <ProductNft />
-            <ProductNft />
-        </div> */}
+            <ProductNft  NFT1="Desert King"
+            NFT2='2345km away' NFT3='1MBT per night'
+            NFT4='available for 2 weeks stay' image={NFT2}/>
+            <ProductNft NFT1="Desert King"
+            NFT2='2345km away' NFT3='1MBT per night'
+            NFT4='available for 2 weeks stay' image={NFT3}/>
+            <ProductNft NFT1="Desert King"
+            NFT2='2345km away' NFT3='1MBT per night'
+            NFT4='available for 2 weeks stay' image={NFT4}/> 
+        </div> 
+         <div className="row2">
+            <ProductNft  NFT1="Desert King"
+            NFT2='2345km away' NFT3='1MBT per night'
+            NFT4='available for 2 weeks stay' image={NFT4}/>
+            <ProductNft NFT1="Desert King"
+            NFT2='2345km away' NFT3='1MBT per night'
+            NFT4='available for 2 weeks stay' image={NFT4}/>
+            <ProductNft NFT1="Desert King"
+            NFT2='2345km away' NFT3='1MBT per night'
+            NFT4='available for 2 weeks stay' image={NFT4}/>
+            <ProductNft NFT1="Desert King"
+            NFT2='2345km away' NFT3='1MBT per night'
+            NFT4='available for 2 weeks stay' image={NFT4}/>
+        </div> 
     </div>
   );
 }

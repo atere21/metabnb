@@ -94,13 +94,11 @@ logo1 {
 .location {
   box-sizing: border-box;
   
-  /* position: absolute;
-  left: 77.5%;
-  right: 11.32%;
-  top: 8.99%;
-  bottom: 88.92%;
-  background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
-  border: 1px solid #b4b4b4;
-  border-radius: 8px; */
+}
+.row1{
+    display: flex;
 
+}
+.row2{
+    display: flex;
 }

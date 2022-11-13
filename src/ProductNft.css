@@ -1,12 +1,75 @@
-.Product-Nft1{
-    margin-left: 10px;
-    flex-direction: column;
-    max-width: 50vw;
-    max-height: 100vh;
-    background-color: white;
-    z-index: 1;
-    border: 1px solid #d7d7d7;
-    border-radius: 15px;
-    padding-left: 90px;
-    margin-top: 20px;
+.Product-Nft {
+  box-sizing: border-box;
+  position: absolute;
+  width: fit-content;
+  height: 372px;
+  left: 0px;
+  top: 0px;
+  background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
+  
+}
+.Product-Nft1 {
+  border: 1px solid #bbb0b0;
+  width: 320px;
+  margin-left: 50px;
+  margin-top: 30px;
+  border-radius: 15px;
+  padding-left: 30px;
+  margin-right: -20px;
+}
+.product__div2 {
+  display: flex;
+  gap: 4rem;
+  margin-top: 1rem;
+  margin-left: -20px;
+
+}
+.col__nft {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  margin-left: 9px;
+  gap: 5px;
+}
+
+.col2__nft {
+  display: flex;
+  flex-direction: column;
+  margin-left: -92px;
+}
+#span__one__nft {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 33px;
+  color: #434343;
+  margin-top: -6px;
+  
+}
+#span__two__nft {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 17px;
+  width: max-content;
+  line-height: 13px;
+  color: black;
+  margin-top: 9px;
+}
+.span__three__nft {
+  color: black;
+  width: max-content;
+  font-weight: 600;
+}
+.span__four__nft {
+  color: #434343;
+  font-weight: 500;
+  font-size: 15px;
+}
+.product__rating__nft {
+  display: flex;
+  margin-left: -4px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
