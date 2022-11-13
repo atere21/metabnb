@@ -1,0 +1,12 @@
+.Product-Nft1{
+    margin-left: 10px;
+    flex-direction: column;
+    max-width: 50vw;
+    max-height: 100vh;
+    background-color: white;
+    z-index: 1;
+    border: 1px solid #d7d7d7;
+    border-radius: 15px;
+    padding-left: 90px;
+    margin-top: 20px;
+}

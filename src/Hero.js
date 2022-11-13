@@ -58,7 +58,6 @@ function Hero() {
       </div>
 
       <div className="right-h">
-        
         <button className="btn1">Connect Wallet</button>
       
         <div className="imagesDiv">
