@@ -11,10 +11,10 @@ function Header() {
         <img src={logo1} alt=''id='logo1' className='logo' />
         <img src={logo2} alt='' className='logo'/>
         <ul className='header-menu'>
-            <li>Home</li>
-            <li>Place to stay</li>
-            <li>NFTs</li>
-            <li>Community</li>
+            <a href='./'><li>Home</li></a>
+            <a href='./'><li>Place to stay</li></a>
+            <a href='./NFTs'> <li>NFTs</li></a>
+            <a href='./'><li>Community</li></a>
             {/* <Modal/> */}
         </ul>
     </div>

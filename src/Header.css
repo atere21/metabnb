@@ -1,6 +1,7 @@
 .header{
     display: flex;
     justify-content: space-between;
+    
 }
 .logo{
    width: 98px; 
@@ -14,7 +15,7 @@
 .header-menu{
     list-style: none;
     display: flex;
-    gap: 3rem;
+    gap: 1rem;
     color: #434343;
     margin-top: -2px;
     margin-left: 10em;
@@ -26,8 +27,17 @@
     font-size: 20px;
     line-height: 25px;
     color: #434343;
+    
+    
 }
-.header-menu >li:hover{
+.header-menu >a >li{
+    margin-left: 90px;
+}
+.header-menu >a >li:hover{
     color: plum;
     cursor: pointer;
+}
+.header-menu >a {
+    text-decoration: none;
+    color: black;
 }

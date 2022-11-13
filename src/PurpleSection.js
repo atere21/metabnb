@@ -22,10 +22,15 @@ function PurpleSection() {
         </div>
              
         <div className='right-div'>
-        
+        <div className='img7'>
       <img src={image7} alt="" id="" className="" />
+      </div>
+      <div className='img8'>
       <img src={image8} alt="" id="" className="" />
+      </div>
+      <div className='img9'>
       <img src={image9} alt="" id="" className="" />
+      </div>
         </div>
         {/* <span style={{color: 'white'}}>purple div</span> */}
 

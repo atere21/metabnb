@@ -1,0 +1,54 @@
+.connect2{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+logo1{
+  height: 30px;
+  width: 80px;
+}
+.logo-nft{
+    width: 120px;
+}
+.header-nft{
+    display: flex;
+    margin-left: 240px;
+    gap: 30px;
+    margin-top: -30px;
+}
+.header-nft >a >li{
+    list-style-type: none;
+}
+.header-nft >a {
+    text-decoration: none;
+    color: black;
+}
+.btn5 {
+  background: #a02279;
+  transition-delay: 0.4ms;
+  border-radius: 8px;
+  border: rgb(94, 86, 86);
+  color: white;
+  width: 150px;
+  height: 44px;
+  margin-top: -35px;
+  cursor: pointer;
+  margin-left: 800px;
+  position: absolute;
+}
+.header-menu {
+  margin-left: -20px;
+}
+.header-menu ul {
+  display: flex;
+  gap: 40px;
+}
+.list-menu > li {
+  text-decoration: none;
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 25px;
+  list-style-type: none;
+  color: #434343;
+}

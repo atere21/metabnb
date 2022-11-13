@@ -40,11 +40,11 @@
  .middle{
     display: flex;
     margin-top: -110px;
-    margin-left: 350px;
+    margin-left: 390px;
  }
  .middle >.first-group >a{
     text-decoration: none;
-    
+    cursor: pointer;
  }
  .first-group{
     display: grid;
@@ -66,16 +66,32 @@
  .middle2{
     display: flex;
     margin-top: -110px;
-    margin-left: 660px;
+    margin-left: 690px;
     color: white;
  }
  .middle2 >.second-group >a{
     text-decoration: none;
-    
+    cursor: pointer;
  }
  .second-group{
     display: grid;
-    margin-top: -4px;
+    margin-top: -84px;
+    gap: 10px;
+    color: white;
+ }
+ .middle3{
+    display: flex;
+    margin-top: -109px;
+    margin-left: 990px;
+    color: white;
+ }
+ .middle3 >.third-group >a{
+    text-decoration: none;
+    cursor: pointer;
+ }
+ .third-group{
+    display: grid;
+    margin-top: -84px;
     gap: 10px;
     color: white;
  }

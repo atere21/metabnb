@@ -3,7 +3,7 @@
   width: 900px;
   height: 60px;
   left: 413px;
-  top: 820px;
+  top: 830px;
   font-family: "Red Rose";
   font-style: normal;
   font-weight: 500;
@@ -13,6 +13,7 @@
 .home__row {
   display: flex;
   flex-direction: row;
+  margin-top: -120px;
 }
 .home__row2{
 display: flex;

@@ -58,7 +58,7 @@ p {
 .btn {
   background: #a02279;
   transition-delay: 0.4ms;
-  border-radius: 0px 8px 8px 0px;
+  border-radius: 8px;
   border: rgb(94, 86, 86);
   color: white;
   width: 150px;
@@ -162,7 +162,8 @@ p {
   align-items: center;
   border-radius: 8px;
   color: white;
-  width: 120%;
+  width: 110%;
+  margin-left: 120px;
   height: 44px;
   cursor: pointer;
   transition: 0.3ms;
@@ -199,6 +200,6 @@ p {
   display: flex;
   height: 200px;
   margin-top: 220px;
-  margin-left: -240px;
+  margin-left: -280px;
   width: 240px;
 }

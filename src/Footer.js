@@ -33,7 +33,7 @@ function Footer() {
         </div>
         <div className='middle2'>
           <div className='second-group'>
-            <h4>Places</h4>
+            <h4 id='h4'>Places</h4>
             <a href=''><span>Castle</span></a>
             <a href=''><span>Forms</span></a>
             <a href=''><span>Beach</span></a>
@@ -41,12 +41,15 @@ function Footer() {
             </div>
         </div>
 
-        {/* <div className='middle'>
+        <div className='middle3'>
+          <div className='third-group'>
+            <h4 id='h4'>About Us</h4>
         <a href=''><span>castle</span></a>
             <a href=''><span>Road map</span></a>
             <a href=''><span>creators</span></a>
             <a href=''><span>contact us</span></a>
-         </div>  */}
+         </div> 
+         </div>
         </div>
     </div>
   )
