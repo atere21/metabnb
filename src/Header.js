@@ -2,6 +2,7 @@ import React from 'react'
 import './Header.css'
 import logo1 from '../src/img/logo1.png'
 import logo2 from '../src/img/logo2.png'
+import Modal from './Modal'
 
 function Header() {
   return (
@@ -14,7 +15,7 @@ function Header() {
             <li>Place to stay</li>
             <li>NFTs</li>
             <li>Community</li>
-
+            {/* <Modal/> */}
         </ul>
     </div>
   )

@@ -1,0 +1,79 @@
+.purpleSection {
+  mix-blend-mode: overlay;
+  display: flex;
+  width: 410vw;
+  height: 80vh;
+  margin-top: 20px;
+  flex-direction: column;
+  overflow: hidden;
+  justify-content: space-between;
+  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+  border: 1px solid #000000;
+}
+h2 {
+  margin-top: 110px;
+  margin-left: 40px;
+  color: white;
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+span2 {
+  display: flex;
+  color: white;
+  font-weight: lighter;
+  margin-left: 40px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+  background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.learn-more{
+    display: flex;
+    margin-left: 40px;
+    margin-top: 40px;
+    background:white;
+    width: 130px;
+    padding: 8px;
+    border-radius: 8px;
+}
+a >#btn4{
+    border:none;
+    background-color: white;
+    color: #a02279;
+    font-weight: 700;
+    font-style: normal;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: 4ms;
+    font-size: 17px;
+}
+a >#btn4:hover{
+    color: #f75ec6;
+}
+.left-div{
+    width: 1300px;
+}
+.right-div{
+   margin-left: 700px;
+   position: absolute;
+   margin-top: 180px;
+   object-fit: contain;
+   width: 10%;
+   
+   
+}
+.right-div >img{
+    width: 100px;
+
+}

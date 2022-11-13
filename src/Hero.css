@@ -154,7 +154,6 @@ p {
 }
 .right-h > .btn1 {
   position: absolute;
-  right: 13rem;
   top: 1rem;
   border: none;
   background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
@@ -163,7 +162,7 @@ p {
   align-items: center;
   border-radius: 8px;
   color: white;
-  width: 40%;
+  width: 120%;
   height: 44px;
   cursor: pointer;
   transition: 0.3ms;
@@ -173,18 +172,33 @@ p {
     background: #f57bce;
 }
 .imagesDiv{
-    position: relative;
-    top: 10rem;
-    right: 10rem;
-    display: flex;
-    flex-direction: column;
+   display: flex;
+   margin-left: -170px;
     
 }
-.img-div1{
-    display: flex;
-    
-}
-.img-div2{
+
+#cartoon1{
   display: flex;
+  margin-top: 360px;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+.cartoon4{
+  margin-top: 10px;
   
+}
+.img-div3{
+  display: flex;
+  width: 120px;
+  height: 200px;
+  gap: 10px;
+  margin-left: 10px;
+  margin-top: 280px;
+}
+.cartoon4{
+  display: flex;
+  height: 200px;
+  margin-top: 220px;
+  margin-left: -240px;
+  width: 240px;
 }

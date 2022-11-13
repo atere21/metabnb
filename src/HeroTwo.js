@@ -9,6 +9,8 @@ import frame5 from "../src/img/frame5.png";
 import frame6 from "../src/img/frame6.png";
 import frame7 from "../src/img/frame7.png";
 import frame8 from "../src/img/frame8.png";
+import PurpleSection from './PurpleSection';
+import Footer from './Footer';
 
 
 function HeroTwo() {
@@ -55,6 +57,8 @@ function HeroTwo() {
              rating ={5}/>
             
         </div>
+        <PurpleSection />
+        <Footer />
     </div>
   )
 }
