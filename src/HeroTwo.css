@@ -24,3 +24,14 @@ display: flex;
   display: grid;
   
 }
+@media screen and (max-width:768px){
+  .hero-text2{
+    margin-top: 350px;
+    margin-left: -350px;
+
+  }
+  .home__row{
+    width: 20vw;
+    display: flex;
+  }
+}

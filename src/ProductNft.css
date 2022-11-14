@@ -1,7 +1,7 @@
 .Product-Nft {
   box-sizing: border-box;
   position: absolute;
-  width: fit-content;
+  width: 200px;
   height: 372px;
   left: 0px;
   top: 0px;
@@ -10,11 +10,11 @@
 }
 .Product-Nft1 {
   border: 1px solid #bbb0b0;
-  width: 320px;
+  width: 277px;
   margin-left: 50px;
   margin-top: 30px;
   border-radius: 15px;
-  padding-left: 30px;
+  padding-left: 15px;
   margin-right: -20px;
 }
 .product__div2 {
