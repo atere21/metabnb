@@ -14,9 +14,9 @@ function Footer() {
         <img src={footerLogo} alt='' id='footerLogo'/>
         <img src={footerLogo2} alt='' id='footerLogo2'/>
         <div className='social-icons'>
-          <img src={facebook} alt=''/>
-          <img src={IG} alt=''/>
-          <img src={tweet} alt=''/>
+          <a><img id='fbk' src={facebook} alt=''/></a>
+          <a><img src={IG} alt=''/></a>
+          <a><img src={tweet} alt=''/></a>
           </div>
           <div className='copyright'>
           <CopyrightIcon className="srch-icon" />
@@ -44,9 +44,9 @@ function Footer() {
         <div className='middle3'>
           <div className='third-group'>
             <h4 id='h4'>About Us</h4>
-        <a href=''><span>castle</span></a>
             <a href=''><span>Road map</span></a>
             <a href=''><span>creators</span></a>
+            <a href=''><span>career</span></a>
             <a href=''><span>contact us</span></a>
          </div> 
          </div>

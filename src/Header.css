@@ -1,10 +1,10 @@
 .header{
     display: flex;
     justify-content: space-between;
+    object-fit: contain;
     
 }
 .logo{
-   width: 110px; 
    height: 19px;
    
 }
@@ -19,7 +19,7 @@
     gap: 1rem;
     color: #434343;
     margin-top: -2px;
-    margin-left: 10em;
+    margin-left: 17em;
 }
 .header-menu >li{
     font-family: 'Red Rose';
@@ -28,13 +28,12 @@
     font-size: 20px;
     line-height: 25px;
     color: #434343;
-    
-    
 }
+
 .header-menu >a >li{
     margin-left: 90px;
 }
-.header-menu >a >li:hover{
+.header-menu >a:hover{
     color: plum;
     cursor: pointer;
 }
@@ -42,3 +41,24 @@
     text-decoration: none;
     color: black;
 }
+.modalButton{
+  position: absolute;
+  top: 1rem;
+  border: none;
+  background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+  border-radius: 10px;
+  border-radius: 10px;
+  align-items: center;
+  border-radius: 8px;
+  color: white;
+  width: 13%;
+  margin-left: 130px;
+  height: 40px;
+  
+}
+ a>.modalButton:hover{
+    cursor: pointer;
+    background: #f57bce;
+    transform: scale(1.1);
+    transition: .5s;
+ }

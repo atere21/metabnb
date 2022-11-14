@@ -12,7 +12,15 @@ import NFT4 from "../src/img/nft5-img.png"
 import NFT6 from "../src/img/frame6.png"
 import NFT7 from "../src/img/frame7.png"
 import NFT8 from "../src/img/frame8.png"
-// import NFT9 from "../src/img/frame9-img.png"
+import NFT9 from "../src/img/nft8.png"
+import NFT10 from "../src/img/nft9.png"
+import NFT11 from "../src/img/nft10.png"
+import NFT11_ from "../src/img/nft11.png"
+import NFT12 from "../src/img/nft12.png"
+import NFT13 from "../src/img/nft13.png"
+import NFT14 from "../src/img/nft14.png"
+import NFT15 from "../src/img/nft15.png"
+import NFT16 from "../src/img/nft16.png"
 
 function NFTs() {
   return (
@@ -75,13 +83,13 @@ function NFTs() {
             NFT4='available for 2 weeks stay' image={NFT2}/>
             <ProductNft NFT1="Desert King"
             NFT2='2345km away' NFT3='1MBT per night'
-            NFT4='available for 2 weeks stay' image={NFT4}/>
+            NFT4='available for 2 weeks stay' image={NFT9}/>
             <ProductNft NFT1="Desert King"
             NFT2='2345km away' NFT3='1MBT per night'
-            NFT4='available for 2 weeks stay' image={NFT4}/>
+            NFT4='available for 2 weeks stay' image={NFT10}/>
             <ProductNft NFT1="Desert King"
             NFT2='2345km away' NFT3='1MBT per night'
-            NFT4='available for 2 weeks stay' image={NFT4}/>
+            NFT4='available for 2 weeks stay' image={NFT11}/>
         </div> 
         <div className="row2">
             <ProductNft  NFT1="Desert King"
@@ -89,13 +97,13 @@ function NFTs() {
             NFT4='available for 2 weeks stay' image={NFT3}/>
             <ProductNft NFT1="Desert King"
             NFT2='2345km away' NFT3='1MBT per night'
-            NFT4='available for 2 weeks stay' image={NFT4}/>
+            NFT4='available for 2 weeks stay' image={NFT11_}/>
             <ProductNft NFT1="Desert King"
             NFT2='2345km away' NFT3='1MBT per night'
-            NFT4='available for 2 weeks stay' image={NFT4}/>
+            NFT4='available for 2 weeks stay' image={NFT12}/>
             <ProductNft NFT1="Desert King"
             NFT2='2345km away' NFT3='1MBT per night'
-            NFT4='available for 2 weeks stay' image={NFT4}/>
+            NFT4='available for 2 weeks stay' image={NFT13}/>
         </div> 
         <div className="row2">
             <ProductNft  NFT1="Desert King"
@@ -103,13 +111,13 @@ function NFTs() {
             NFT4='available for 2 weeks stay' image={NFT4}/>
             <ProductNft NFT1="Desert King"
             NFT2='2345km away' NFT3='1MBT per night'
-            NFT4='available for 2 weeks stay' image={NFT4}/>
+            NFT4='available for 2 weeks stay' image={NFT15}/>
             <ProductNft NFT1="Desert King"
             NFT2='2345km away' NFT3='1MBT per night'
-            NFT4='available for 2 weeks stay' image={NFT4}/>
+            NFT4='available for 2 weeks stay' image={NFT14}/>
             <ProductNft NFT1="Desert King"
             NFT2='2345km away' NFT3='1MBT per night'
-            NFT4='available for 2 weeks stay' image={NFT4}/>
+            NFT4='available for 2 weeks stay' image={NFT16}/>
         </div> 
     </div>
   );

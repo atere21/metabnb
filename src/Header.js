@@ -1,10 +1,11 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './Header.css'
 import logo1 from '../src/img/logo1.png'
 import logo2 from '../src/img/logo2.png'
 import Modal from './Modal'
 
 function Header() {
+  const [openModal, setOpenModal] = useState(true);
   return (
     <div className='header'>
 
@@ -12,11 +13,19 @@ function Header() {
         <img src={logo2} alt='' className='logo'/>
         <ul className='header-menu'>
             <a href='./'><li>Home</li></a>
-            <a href='./'><li>Place to stay</li></a>
-            <a href='./NFTs'> <li>NFTs</li></a>
+            <a href='./NFTs'><li>Place to stay</li></a>
+            <a href='./'> <li>NFTs</li></a>
             <a href='./'><li>Community</li></a>
-            {/* <Modal/> */}
+            
         </ul>
+        <div>
+             <button onClick={ () => setOpenModal (true)}
+             className='modalButton'>
+              Connect Wallet
+              </button>
+              <Modal open={openModal}
+              onClose={ () => setOpenModal(false)}  />
+           </div>
     </div>
   )
 }
