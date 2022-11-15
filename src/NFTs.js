@@ -36,7 +36,7 @@ function NFTs() {
             <li>Place to stay</li>
           </a>
           <a href="./NFTs">
-            {" "}
+            
             <li>NFTs</li>
           </a>
           <a href="./">

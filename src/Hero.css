@@ -3,6 +3,7 @@
   justify-content: space-between;
   width: max-content;
   height: max-content;
+  background-color: white;
 }
 .left-h {
   padding: 2rem;
@@ -33,17 +34,18 @@ span {
   color: #a02279;
 }
 p {
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
   background: white;
   color: #434343;
-  margin-left: -35px;
+  margin-left: 10px;
   font-weight: 500;
+  font-size:large
 }
 .srch {
   width: 299px;
   height: 44px;
   left: 0px;
-  border-radius: 8px 0px 0px 8px;
+  border-radius: 0px 0px 0px 8px;
   margin-top: 30px;
   margin-left: -30px;
   padding: 10px;
@@ -81,22 +83,23 @@ p {
   padding: 10px 0px;
   gap: 264px;
   position: absolute;
-  width: 1355px;
+  width: 1409px;
   height: 40px;
   left: 0px;
-  top: 772px;
+  top: 779px;
   background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
 }
 .img-vec {
   display: flex;
-  gap: 240px;
+  gap: 280px;
   margin-top: -20px;
-  margin-left: -290px;
+  margin-left: -30px;
 }
 .img-vec2 {
   display: flex;
   width: fit-content;
   margin-top: 30px;
+  margin-left: -280px;
 }
 .img2 {
   display: flex;
@@ -113,17 +116,20 @@ p {
 .vec2 {
   width: 49px;
   height: 50px;
-  margin-top: 17px;
+  margin-top: 6px;
+  margin-left: -40px;
 }
 .vec3 {
   width: 30px;
   height: 30px;
-  margin-top: 40px;
+  margin-top: 23px;
 }
 .vec4 {
   width: 30px;
   height: 30px;
-  margin-top: 20px;
+  margin-top: 6px;
+  position: absolute;
+  margin-left: -48px;
 }
 .vec {
   width: 49px;
@@ -137,17 +143,21 @@ p {
   font-size: 30px;
   color: #f7f7f7;
   line-height: 27px;
+  margin-top: 15px;
+  position:absolute;
+
 }
 .token1 {
   color: white;
-  margin-top: 40px;
+  margin-top: 26px;
   font-style: normal;
   font-weight: lighter;
   font-size: 23px;
+  
 }
 .open {
   font-size: 28px;
-  margin-top: 15px;
+  margin-top: 4px;
   color: white;
   font-style: normal;
   font-weight: 400;
@@ -181,57 +191,113 @@ p {
 
 #cartoon1{
   display: flex;
-  margin-top: 360px;
+  margin-top: 355px;
   margin-bottom: 10px;
   justify-content: space-between;
-}
-.cartoon4{
-  margin-top: 10px;
-  
-}
-.img-div3{
-  display: flex;
-  width: 120px;
-  height: 200px;
-  gap: 10px;
-  margin-left: 10px;
-  margin-top: 280px;
-}
-.cartoon4{
-  display: flex;
-  height: 200px;
-  margin-top: 220px;
-  margin-left: -280px;
   width: 240px;
 }
-@media screen and (max-width:768px)
+
+.img-div3{
+  display: flex;
+  height: 200px;
+  gap: 10px;
+  margin-left: 6px;
+  margin-top: 250px;
+  width: 240px;
+}
+#cartoon3{
+  width: 230px;
+}
+.cartoon4{
+  display: flex;
+  height: 200px;
+  margin-top: 210px;
+  margin-left: -240px;
+  width: 250px;
+}
+ @media screen and (min-width:320px) and (max-width:769px)
 {
-  .hero{
-    flex-direction: column;
-    margin-top: 30px;
+  .rentPlace{
+  margin-top: 4rem;
+  flex-direction: column;
+  background-color: white;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 14px;
     
   }
-  .right-h > .btn1 {
-    margin-top: -590px;
-    width: 120px;
-    margin-left: 990px;
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    height: max-content;
+    background-color: white;
+  }
+  .hero-text {
+    padding: 10px 13px;
+    color: #434343;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 140%;
+    letter-spacing: -0.001em;
+    text-transform: none;
+    letter-spacing: 1.2px;
+    margin-bottom: 10px;
+    margin-left: -140px;
   }
   .imagesDiv{
+    margin-left: -520px;
+    margin-top: 160px;
+    width: 50vw;
+  }
+  #cartoon1{
+    width: 200px;
+    margin-top: 290px;
+    margin-left: 40px;
+    height: 170px;
+  }
+  #cartoon3{
+    width: 200px;
+    height: 170px;
+  }
+  .cartoon4{
     display: flex;
-    margin-left: 50px;
-     margin-top: -260px;
-     position: relative;
- }
- .bottomPurple{
-  margin-top: 330px;
-  margin-left: -20px;
-  gap: -5px;
-  
- }
- .img-vec{
-  gap: 34px;
-  display: flex;
-  margin-left: -670px;
- }
- 
+    height: 170px;
+    margin-top: 180px;
+    margin-left: -210px;
+    width: 200px;
+  }
+  .cartoon2{
+    width: 200px;
+    display: flex;
+    margin-left: 40px;
+  }
+  .bottomPurple{
+    margin-top: 21px;
+    width: 720px;
+    margin-left: 30px;
+    padding-left: -20px;
+    
+  }
+  .img-vec{
+    margin-left: 190px;
+
+    gap: 140px;
+  }
+  .open{
+    margin-left: -40px;
+  }
+  .vec4{
+    margin-left:-80px;
+  }
+  .token1{
+    margin-left: 11px;
+
+  }
+  .vec3{
+    margin-left: 20px;
+  }
 }
+ 
