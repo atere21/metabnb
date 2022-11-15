@@ -1,8 +1,8 @@
 .purpleSection {
   mix-blend-mode: overlay;
   display: flex;
-  width: 410vw;
-  height: 90vh;
+  width: 910vw;
+  height: 100vh;
   margin-top: 20px;
   flex-direction: column;
   overflow: hidden;
@@ -30,8 +30,8 @@ span2 {
   font-weight: lighter;
   margin-left: 40px;
   font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
+  font-weight: 440;
+  font-size: 18px;
   line-height: 30px;
   background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
   -webkit-background-clip: text;
@@ -84,7 +84,7 @@ a >#btn4:hover{
   margin-top: 100px;
 }
 .img9{
-  margin-top: -210px;
+  margin-top: -190px;
   z-index: -1;
   position: relative;
   margin-left:130px ;

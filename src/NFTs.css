@@ -1,10 +1,13 @@
 .connect2 {
   margin-left: 30px;
-  margin-top: 30px;
+  margin-top: 60px;
+  position: absolute;
+  background-color: white;
 }
 logo1 {
   height: 30px;
   width: 80px;
+  
 }
 .logo-nft {
   width: 120px;
@@ -13,7 +16,8 @@ logo1 {
   display: flex;
   margin-left: 240px;
   gap: 80px;
-  margin-top: -30px;
+  margin-top: -20px;
+  font-size: 18px;
 }
 .header-nft > a > li {
   list-style-type: none;
@@ -47,8 +51,8 @@ logo1 {
 .header-menu ul {
   display: flex;
   gap: 50px;
-  margin-top: 90px;
-  margin-left: 20px;
+  margin-top: 190px;
+  margin-left: 70px;
 }
 .list-menu > li {
   text-decoration: none;
@@ -63,7 +67,7 @@ logo1 {
 .btn6 {
   position: absolute;
   margin-left: 910px;
-  margin-top: -46px;
+  margin-top: -36px;
   font-size: 16px;
   box-sizing: border-box;
   width: 140px;
@@ -102,3 +106,18 @@ logo1 {
 .row2{
     display: flex;
 }
+.modalButton2{
+    position: absolute;
+    top: 0rem;
+    border: none;
+    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+    border-radius: 10px;
+    border-radius: 10px;
+    align-items: center;
+    border-radius: 8px;
+    color: white;
+    width: 170px;
+    margin-left: 830px;
+    height: 47px;
+    
+  }

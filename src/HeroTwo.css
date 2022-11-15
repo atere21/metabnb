@@ -3,18 +3,19 @@
   width: 900px;
   height: 60px;
   left: 413px;
-  top: 830px;
+  top: 860px;
   font-family: "Red Rose";
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
   line-height: 60px;
+  background-color: white;
 }
 .home__row {
   display: flex;
   flex-direction: row;
   margin-top: -120px;
-  width: 100%;
+  width: 200%;
 }
 .home__row2{
 display: flex;
@@ -25,14 +26,14 @@ display: flex;
   display: grid;
   
 }
-/* @media screen and (max-width:768px){
+@media screen and (min-width:320px) and (max-width:769px){
   .hero-text2{
-    margin-top: 350px;
-    margin-left: -350px;
+    margin-top: 50px;
+    margin-left: -340px;
 
   }
   .home__row{
     width: 20vw;
     display: flex;
   }
-} */
+} 

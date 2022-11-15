@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState}from "react";
 import "./NFTs.css";
 import logo1 from "../src/img/logo1.png";
 import logo2 from "../src/img/logo2.png";
@@ -21,8 +21,10 @@ import NFT13 from "../src/img/nft13.png"
 import NFT14 from "../src/img/nft14.png"
 import NFT15 from "../src/img/nft15.png"
 import NFT16 from "../src/img/nft16.png"
+import Modal from "./Modal"
 
 function NFTs() {
+  const [openModal, setOpenModal] = useState(true);
   return (
     <div className="nft">
       <div className="connect2">
@@ -42,9 +44,16 @@ function NFTs() {
           <a href="./">
             <li>Community</li>
           </a>
-          {/* <Modal/> */}
         </ul>
-        <button className="btn5">Connect Wallet</button>
+        <div>
+             <button onClick={ () => setOpenModal (true)}
+             className='modalButton2'>
+              Connect Wallet
+              </button>
+              <Modal open={openModal}
+              onClose={ () => setOpenModal(false)}  />
+           </div>
+        {/* <button className="btn5">Connect Wallet</button> */}
       </div>
       <div className="header-menu">
         <ul className="list-menu">

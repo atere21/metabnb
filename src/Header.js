@@ -3,6 +3,7 @@ import './Header.css'
 import logo1 from '../src/img/logo1.png'
 import logo2 from '../src/img/logo2.png'
 import Modal from './Modal'
+import MenuIcon from '@mui/icons-material/Menu';
 
 function Header() {
   const [openModal, setOpenModal] = useState(true);
@@ -16,16 +17,17 @@ function Header() {
             <a href='./NFTs'><li>Place to stay</li></a>
             <a href='./'> <li>NFTs</li></a>
             <a href='./'><li>Community</li></a>
-            
-        </ul>
-        <div>
+            <div className='modal-btn'>
              <button onClick={ () => setOpenModal (true)}
              className='modalButton'>
               Connect Wallet
               </button>
               <Modal open={openModal}
               onClose={ () => setOpenModal(false)}  />
+           <MenuIcon className='menu' />
            </div>
+           
+        </ul>
     </div>
   )
 }

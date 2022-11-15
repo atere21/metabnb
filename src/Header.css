@@ -6,7 +6,6 @@
 }
 .logo{
    height: 19px;
-   
 }
 #logo1{
     width: 24px;
@@ -51,14 +50,46 @@
   align-items: center;
   border-radius: 8px;
   color: white;
-  width: 13%;
+  width: 170px;
   margin-left: 130px;
-  height: 40px;
+  height: 47px;
   
 }
- a>.modalButton:hover{
-    cursor: pointer;
-    background: #f57bce;
-    transform: scale(1.1);
-    transition: .5s;
- }
+  @media screen and (min-width:481px) and (max-width:769px){
+    .header-menu >a{
+        display: none;
+    }
+    .logo{
+        height: 19px;
+        margin-left: -290px;
+     }
+     #logo1{
+        width: 24px;
+        height: 23px;
+        margin-top: -3px;
+        margin-left: 30px;
+    }
+    .modalButton{
+        margin-left: -130px;
+        width: 110px;
+    }
+}  
+@media screen and (min-width:320px) and (max-width:480px){
+    .header-menu >a{
+        display: none;
+    }
+    .logo{
+        height: 19px;
+        margin-left: -290px;
+     }
+     #logo1{
+        width: 24px;
+        height: 23px;
+        margin-top: -3px;
+        margin-left: 30px;
+    }
+    .modalButton{
+        margin-left: -130px;
+        width: 110px;
+    }
+}

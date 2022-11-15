@@ -4,13 +4,16 @@
   flex-direction: column;
   width: 200px;
   max-height: 100vh;
-  background-color: white;
+  background: white;
   z-index: 1;
   border: 1px solid #d7d7d7;
   border-radius: 15px;
   padding-left: 90px;
   margin-left: 30px;
   
+}
+.product__info{
+  background: white;
 }
 
 .product__info > img {
@@ -29,6 +32,7 @@
   margin-top: -2rem;
   margin-left: -90px;
   max-width: fit-content;
+  background: white;
   
 }
 .col1 {

@@ -63,10 +63,10 @@ function Hero() {
         <div className="imagesDiv">
             <div className="img-div1">
              <img src={cartoon1} alt="" id="cartoon1" className="cartoon1" />
-             <img src={cartoon2} alt="" id="" className="cartoon1" />
+             <img src={cartoon2} alt="" id="" className="cartoon2" />
              </div>
              <div className="img-div3">
-              <img src={cartoon3} alt="" id="" className="cartoon3" />
+              <img src={cartoon3} alt="" id="cartoon3" />
                  <img src={cartoon4} alt="" id="" className="cartoon4" />
                  </div> 
                  
