@@ -39,7 +39,8 @@ p {
   color: #434343;
   margin-left: 10px;
   font-weight: 500;
-  font-size:large
+  font-size:large;
+  line-height: 25px;
 }
 .srch {
   width: 299px;
@@ -74,6 +75,10 @@ p {
     position: relative;
     
 }
+.hero-text2{
+  margin-top: -30px;
+
+}
 .bottomPurple {
   margin-top: 0;
   display: flex;
@@ -83,10 +88,10 @@ p {
   padding: 10px 0px;
   gap: 264px;
   position: absolute;
-  width: 1409px;
+  width: 1509px;
   height: 40px;
   left: 0px;
-  top: 779px;
+  top: 829px;
   background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
 }
 .img-vec {
@@ -185,7 +190,7 @@ p {
 }
 .imagesDiv{
    display: flex;
-   margin-left: -170px;
+   margin-left: -260px;
     
 }
 
@@ -215,6 +220,96 @@ p {
   margin-left: -240px;
   width: 250px;
 }
+@media screen and (min-width:481px) and (max-width:768px)
+{
+  .rentPlace{
+    margin-top: 4rem;
+    flex-direction: column;
+    background-color: white;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 14px;
+      
+    }
+    .left-h {
+      padding-left:202px ;
+      padding-top: 1.5rem;
+    }
+    .hero {
+      display: flex;
+      justify-content: space-between;
+      height: max-content;
+      background-color: white;
+    }
+    .hero-text {
+      padding: 10px 13px;
+      color: #434343;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 29px;
+      line-height: 140%;
+      letter-spacing: -0.001em;
+      text-transform: none;
+      letter-spacing: 1.2px;
+      margin-bottom: 10px;
+      margin-left: -140px;
+    }
+    .imagesDiv{
+      margin-left: -520px;
+      margin-top: 260px;
+      width: 80vw;
+    }
+    #cartoon1{
+      width: 200px;
+      margin-top: 290px;
+      margin-left: 40px;
+      height: 170px;
+    }
+    #cartoon3{
+      width: 200px;
+      height: 170px;
+    }
+    .cartoon4{
+      display: flex;
+      height: 170px;
+      margin-top: 180px;
+      margin-left: -210px;
+      width: 200px;
+    }
+    .cartoon2{
+      width: 200px;
+      display: flex;
+      margin-left: 40px;
+    }
+    .bottomPurple{
+      margin-top: 111px;
+      width: 720px;
+      margin-left: 30px;
+      padding-left: -20px;
+      position: absolute;
+      
+    }
+    .img-vec{
+      margin-left: 190px;
+  
+      gap: 140px;
+    }
+    .open{
+      margin-left: -40px;
+    }
+    .vec4{
+      margin-left:-80px;
+    }
+    .token1{
+      margin-left: 11px;
+  
+    }
+    .vec3{
+      margin-left: 20px;
+    }
+}
  @media screen and (min-width:320px) and (max-width:769px)
 {
   .rentPlace{
@@ -227,6 +322,10 @@ p {
   justify-content: flex-start;
   font-size: 14px;
     
+  }
+  .left-h {
+    padding-left:202px ;
+    padding-top: 1.5rem;
   }
   .hero {
     display: flex;
@@ -249,8 +348,8 @@ p {
   }
   .imagesDiv{
     margin-left: -520px;
-    margin-top: 160px;
-    width: 50vw;
+    margin-top: 260px;
+    width: 80vw;
   }
   #cartoon1{
     width: 200px;
@@ -275,10 +374,11 @@ p {
     margin-left: 40px;
   }
   .bottomPurple{
-    margin-top: 21px;
-    width: 720px;
+    margin-top: 111px;
+    width: 820px;
     margin-left: 30px;
-    padding-left: -20px;
+    padding-left: -200px;
+    position: absolute;
     
   }
   .img-vec{

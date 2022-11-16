@@ -23,12 +23,13 @@ function HeroTwo() {
             <Product title1="Desert King"
              title2='2345km away' title3='1MBT per night'
              title4='available for 2 weeks stay' image={frame1} 
-             rating ={5}/>
+             rating ={5} />
             <Product title1="Desert King"
              title2='2345km away' title3='1MBT per night'
              title4='available for 2 weeks stay' image={frame2} 
              rating ={5}/>
              <Product title1="Desert King"
+             id="next"
              title2='2345km away' title3='1MBT per night'
              title4='available for 2 weeks stay' image={frame3} 
              rating ={5}/>

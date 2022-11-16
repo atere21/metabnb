@@ -6,7 +6,7 @@ import image9 from "../src/img/image9.png";
 
 function PurpleSection() {
   return (
-    <div className='purpleSection'>
+    <div className='purpleSection' id='purplesec'>
         <div className='left-div'>
             <h2>
                 Metabnb NFTs
@@ -23,13 +23,13 @@ function PurpleSection() {
              
         <div className='right-div'>
         <div className='img7'>
-      <img src={image7} alt="" id="" className="" />
+      <img src={image7} alt="" id="imgg7" className="" />
       </div>
       <div className='img8'>
-      <img src={image8} alt="" id="" className="" />
+      <img src={image8} alt="" id="imgg8" className="" />
       </div>
       <div className='img9'>
-      <img src={image9} alt="" id="" className="" />
+      <img src={image9} alt="" id="imgg9" className="" />
       </div>
         </div>
         {/* <span style={{color: 'white'}}>purple div</span> */}

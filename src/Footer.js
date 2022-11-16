@@ -9,7 +9,7 @@ import CopyrightIcon from '@mui/icons-material/Copyright';
 
 function Footer() {
   return (
-    <div className='footer'>
+    <div className='footer' id='foot'>
         <div className='left-side' >
         <img src={footerLogo} alt='' id='footerLogo'/>
         <img src={footerLogo2} alt='' id='footerLogo2'/>

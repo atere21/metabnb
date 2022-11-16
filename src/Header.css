@@ -12,33 +12,38 @@
     height: 23px;
     margin-top: -3px;
 }
-.header-menu{
-    list-style: none;
-    display: flex;
-    gap: 1rem;
-    color: #434343;
-    margin-top: -2px;
-    margin-left: 17em;
+.menu{
+    left: 789px;
+    position: absolute;
 }
-.header-menu >li{
+#header-menu2{
+    display: flex;
+    list-style-type: none;
+    width: max-content;
+}
+#header-menu2 >li{
     font-family: 'Red Rose';
     font-style: normal;
     font-weight: 200;
     font-size: 20px;
     line-height: 25px;
     color: #434343;
+    
 }
 
-.header-menu >a >li{
+#header-menu2 >a >li{
     margin-left: 90px;
+    color: black;
 }
-.header-menu >a:hover{
+#header-menu2 >a:hover{
     color: plum;
     cursor: pointer;
+
 }
-.header-menu >a {
+#header-menu2 >a {
     text-decoration: none;
     color: black;
+    
 }
 .modalButton{
   position: absolute;
@@ -53,43 +58,32 @@
   width: 170px;
   margin-left: 130px;
   height: 47px;
-  
 }
   @media screen and (min-width:481px) and (max-width:769px){
-    .header-menu >a{
-        display: none;
-    }
-    .logo{
-        height: 19px;
-        margin-left: -290px;
-     }
-     #logo1{
-        width: 24px;
-        height: 23px;
-        margin-top: -3px;
-        margin-left: 30px;
-    }
-    .modalButton{
-        margin-left: -130px;
-        width: 110px;
-    }
+    #header-menu2{
+        display: grid;
+        width: max-content;
+        background: #A02279;
+        color: white;
+        height: 40vw;
+        align-items: center;
+        width: 200px;
+        }
 }  
-@media screen and (min-width:320px) and (max-width:480px){
-    .header-menu >a{
+@media screen and (min-width:200px) and (max-width:480px){
+    #header-menu2{
+        display: grid;
+        width: max-content;
+        background: #A02279;
+        color: white;
+        height: 40vw;
+        align-items: center;
+        width: 200px;
+        }
+}
+@media screen and (min-width:767px) and (max-width:1500px){
+    #menu-btn{
         display: none;
-    }
-    .logo{
-        height: 19px;
-        margin-left: -290px;
-     }
-     #logo1{
-        width: 24px;
-        height: 23px;
-        margin-top: -3px;
-        margin-left: 30px;
-    }
-    .modalButton{
-        margin-left: -130px;
-        width: 110px;
-    }
+        position: absolute;
+        }
 }
